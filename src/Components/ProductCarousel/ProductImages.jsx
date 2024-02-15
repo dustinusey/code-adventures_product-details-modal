@@ -5,7 +5,7 @@ const ProductImages = (props) => {
         onClick={() => {
           props.setDisplayImage(props.images[props.index]);
         }}
-        className="w-[150px] rounded-lg"
+        className="cursor-pointer w-[150px] rounded-lg"
         src={props.src}
       />
     </div>
