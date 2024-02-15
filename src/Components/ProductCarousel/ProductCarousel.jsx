@@ -13,7 +13,7 @@ const ProductCarousel = () => {
   const [displayImage, setDisplayImage] = useState(images[0]);
 
   return (
-    <div className="max-w-[50%]">
+    <div className="">
       {/* displayed image */}
       <img className="rounded-lg" src={displayImage} alt="" />
       <ul className="flex gap-2 mt-2">

@@ -21,7 +21,7 @@ const tabs = [
 const Infotainer = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
-    <div className="w-[50%] mt-7">
+    <div className="w-[100%] mt-7">
       <TabHeader
         tabs={tabs}
         activeTab={activeTab}
