@@ -1,4 +1,10 @@
+import ProductCarousel from "./ProductCarousel/ProductCarousel";
+
 const ProductOverview = () => {
-  return <div>ProductOverview</div>;
+  return (
+    <div>
+      <ProductCarousel />
+    </div>
+  );
 };
 export default ProductOverview;
